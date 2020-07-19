@@ -52,14 +52,14 @@ end
 end
 end
 
-# def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
+def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   
-#   holiday_hash.each do |season, holidays_hash|
-#     if season == :fall
-#       holidays_hash << holiday_name << supply_array
-# end
-# end
-# end
+  holiday_hash.each do |season, holidays_hash|
+    if season == :fall
+      holidays_hash << holiday_name << supply_array
+end
+end
+end
 
 
 
